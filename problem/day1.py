@@ -23,3 +23,15 @@ print(message)
 message1 = "Eligiable" if age >= 18 else "Not Eligiable"
 
 print(message1)
+
+#python has three types of logical operators these are and , or , not
+
+loggedin = True
+paid = False
+is_pass = True
+
+
+if (loggedin or paid) and is_pass:
+  print('Pro User')
+else:
+  print('Normal User')
